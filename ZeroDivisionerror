@@ -1,0 +1,15 @@
+def divide_numbers():
+    try:
+        
+        num1 = float(input('Enter Your First Number(dividend): '))
+        num2 = float(input('Enter Your Second Number (divisor): '))
+        
+        result = num1 / num2
+        print(f'the result of {num1} divided by {num2} is: {result}')
+    
+    except ZeroDivisionError:
+        print('Error: Division by zero is not allowed. Please enter a non-zero divisor')
+    except ValueError:
+        print('Error: Please enter valid numbers.')
+    
+divide_numbers()

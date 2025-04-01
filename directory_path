@@ -1,0 +1,10 @@
+import os  # Import the os module to interact with the operating system
+
+directory_path = '/'  # Define the directory path (root directory in Linux/macOS)
+
+# Get a list of files and directories in the specified path
+contents = os.listdir(directory_path)  
+
+# Loop through each item in the directory and print it
+for item in contents:
+    print(item)  # Print the name of the file or directory

@@ -1,0 +1,23 @@
+name = input('Enter your name: ')
+print(f'Good Afternoon {name} ')
+
+
+letter = '''Dear <Name>,
+            Your are Selected!
+            <Date>'''
+print(letter.replace('Name', 'Himel').replace('<Date>', '03 march 2020'))  # replace string method
+
+
+
+
+A = 'Himel is a good good boy'
+
+print(A.find('  ')) # find string method
+
+
+
+A = 'Himel is a good   good boy'
+
+
+print(A.replace("  ", " "))  # replace string method
+print(A) # strings are immutable which means that you can't change them by running function on them

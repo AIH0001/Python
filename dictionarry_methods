@@ -1,0 +1,31 @@
+marks = {
+    'mr.x': 100,
+    'mr.y': 90,
+    'mr.z': 80
+}
+
+
+# Print the dictionary and its type
+# print(marks, type(marks))
+
+
+# Print all key-value pairs in the dictionary
+# print(marks.items())
+
+
+# Print all the keys in the dictionary
+#print(marks.keys())
+
+
+# Print all the values in the dictionary
+# print(marks.values())
+
+
+
+# Update the dictionary with new/modified entries
+# marks.update({'mr.x': 85, 'mr.a': 70})
+# print(marks)
+
+print(marks.get('mr.x'))  # prints None
+
+print(marks['mr.x'])  # prints an error

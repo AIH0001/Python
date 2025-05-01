@@ -1,0 +1,21 @@
+# e = set()  # don't use s = {} as it will create an empty dictionary
+
+# s = {1, 2, 5, 10, 50}
+
+# print(s, type(s))  # Print the set and confirm its type is 'set'
+# s.pop    # Remove and return an arbitrary element (sets are unordered)
+# s.add(7642)   # Add a new element to the set
+
+# s.remove(10)    # Remove a specific element from the set
+
+# print(s, type(s))    # Print updated set and its type again
+
+# print(s)    # Just print the final version of the set
+
+
+# s1 = {13, 45, 67, 13, 56, 45}    # duplicates like 13 and 45 will be ignored
+# s2 = {43, 56, 71, 46, 78, 56}    # 56 appears twice but only once in the actual set
+
+# print(s1.union(s2))    # Print the union of the two sets (all unique elements from both)
+
+# print(s1.intersection(s2))   # Print the intersection of the two sets (common elements)

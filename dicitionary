@@ -1,0 +1,9 @@
+words = {
+    'big': 'large',
+    'happy': 'joyful',
+    'run': 'sprint',
+    'city': 'town'
+}
+word = input('Enter the word you want meaning for: ')
+
+print(words[word])

@@ -1,0 +1,16 @@
+marks = int(input('Enter marks: '))
+
+if (marks<=100 and marks>=90):
+    grade = 'Excellent'
+elif (marks<90 and marks>=80):
+    grade = 'Very Good'
+elif (marks<80 and marks>=70):
+    grade = 'Good'
+elif (marks<70 and marks>=60):
+    grade = 'Average'
+elif (marks<60 and marks>=50):
+    grade = 'Below Average'
+elif (marks<50):
+    grade = 'Poor'
+
+print('Your grade is: ', grade)
